@@ -1,0 +1,36 @@
+Origin: Ubuntu
+Label: Ubuntu
+Suite: trusty
+Version: 14.04
+Codename: trusty
+Date: Thu, 08 May 2014 14:19:09 UTC
+Architectures: amd64 arm64 armhf i386 powerpc ppc64el
+Components: main restricted universe multiverse
+Description: Ubuntu Trusty 14.04
+MD5Sum:
+ a16e4b76e19b392e6f339ad69dd473b3     2289 restricted/source/Sources.gz
+ 02df7191420c8029b0fb2d2ab7e35c4e     6810 restricted/source/Sources
+ 9fbb0bbb240b06f19a538b35691ea654   249815 universe/source/Sources.gz
+ dae81c4fd6afbce380aa61ebb1c18bad   750041 universe/source/Sources
+ 0a145e0292d6e917395995064ac1b541     3242 multiverse/source/Sources.gz
+ 9826cd893ad21eb60e1dc9d826c30cf2     7678 multiverse/source/Sources
+ ad56f5e4e03a2749227495b0a831e7e7   538512 main/source/Sources.gz
+ 89148ec59e16446c1daed9d9738c52b4  1679990 main/source/Sources
+SHA1:
+ 4de4a9edcdd4bd938310106125bb62cb994b3d92     2289 restricted/source/Sources.gz
+ 260aa503d9539c171b1fc3f7c07048a6fca686a0     6810 restricted/source/Sources
+ 55db6a9aedecad854c935e1b5d35f7320933058e   249815 universe/source/Sources.gz
+ f0e6f89277910dd38b9c278987f279e39c19d0af   750041 universe/source/Sources
+ c7b2de9aa84c5eec008bc8fcf9a9a5cf021fe62c     3242 multiverse/source/Sources.gz
+ 861a59e2e8ce92fbac4d72930e3a57071dcdec60     7678 multiverse/source/Sources
+ 641b53707ee95ed274b5be1c62799c042ade828c   538512 main/source/Sources.gz
+ 834a0f44ddd09d3a7dec9483ba2a96139184341f  1679990 main/source/Sources
+SHA256:
+ eb661edb20136cf496c828c228703724d9dfa98139540fff1be39b51dd751d2c     2289 restricted/source/Sources.gz
+ 9392641a3f8ec9d36a8321d7e6c02f38af95a386330a889e72aa94fc440afa06     6810 restricted/source/Sources
+ 3ca3a525132658953bc8274c311eb71e50a5788887723b1aa5f80ee45c12409b   249815 universe/source/Sources.gz
+ 151e21dc283547b8f7288bec04defc0c52b6cabcbab0be5c01a3de08d8d165a2   750041 universe/source/Sources
+ 8e088efd3c43c4a764421cd39f14b2a823afa3bba3c881dd80c76db7c1dad81e     3242 multiverse/source/Sources.gz
+ 838e8123b1015d1bf14090d62d597c5975023ccafd8f572146d6cd85835f197a     7678 multiverse/source/Sources
+ 7dea856caece7f21a3517813fdbb460551f8218ce8ccd3e6c0489ca266c500ea   538512 main/source/Sources.gz
+ eea27dceaa7c5f0c32cbbbd6c571597a91e8f3edcc514a43571b7dfcca5d77a2  1679990 main/source/Sources

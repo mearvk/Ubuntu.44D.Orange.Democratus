@@ -1,0 +1,101 @@
+Package: bcmwl
+Binary: bcmwl-kernel-source
+Version: 6.30.223.248+bdcom-0ubuntu0.2
+Priority: optional
+Section: restricted/admin
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Alberto Milone <alberto.milone@canonical.com>
+Build-Depends: debhelper (>= 7.0.50~), dh-modaliases
+Architecture: i386 amd64
+Standards-Version: 3.9.1
+Format: 1.0
+Directory: pool/restricted/b/bcmwl
+Files:
+ 7aab52a0505ecd905eb693e91602ab49 1870 bcmwl_6.30.223.248+bdcom-0ubuntu0.2.dsc
+ 939c3b02cc908dd5811971a2838a3ddc 5565531 bcmwl_6.30.223.248+bdcom.orig.tar.gz
+ ea5252caa0d2f4b5164065a418486ef3 21905 bcmwl_6.30.223.248+bdcom-0ubuntu0.2.diff.gz
+Package-List: 
+ bcmwl-kernel-source deb admin optional
+Checksums-Sha1:
+ 5f869081e670ba0364c71217abfc3d87d70f7a62 1870 bcmwl_6.30.223.248+bdcom-0ubuntu0.2.dsc
+ b7bbf93a02913ef86f8992f1a2a2c24b8c317321 5565531 bcmwl_6.30.223.248+bdcom.orig.tar.gz
+ 28cb386687fe5dce879ac398d8441551b5135416 21905 bcmwl_6.30.223.248+bdcom-0ubuntu0.2.diff.gz
+Checksums-Sha256:
+ 14e997c788edfeae356134ff3a7490d1359156bf08e773ed1a397f029c1bba97 1870 bcmwl_6.30.223.248+bdcom-0ubuntu0.2.dsc
+ 196a3db32fcf2d6095aa39c93108e8fc7e10ad82e01807aa1444ff001e936a21 5565531 bcmwl_6.30.223.248+bdcom.orig.tar.gz
+ 1488bed9bb6635fe796a9f7522c65311a43ff31810522b54e2babd44dfdff5df 21905 bcmwl_6.30.223.248+bdcom-0ubuntu0.2.diff.gz
+Checksums-Sha512:
+ 78cde372dd83c943c92346a97b5f968001057257590837e6ab8c6e64197e5d22c03f1f61709223a93980bc1bcac7f0d82351df8d39ddc35de558775b5b3cd2fd 1870 bcmwl_6.30.223.248+bdcom-0ubuntu0.2.dsc
+ 3c6145fbac17eefda6416c152cacbd0034a23f419408a25e4d41a692cc98badb14b214da05ec005a4afa171dd64ebc95702b4fe8b2602bf33e9a6fef02c03e6f 5565531 bcmwl_6.30.223.248+bdcom.orig.tar.gz
+ 67dd070a7f3ec34cf97865c46a053636865d99b0c8897935912b227358e6d53e2da8bac7612f93d344d92d175eb80aa11faf381605b995f3c4ebbda74c389a6d 21905 bcmwl_6.30.223.248+bdcom-0ubuntu0.2.diff.gz
+
+Package: fglrx-installer-updates
+Binary: fglrx-updates-core, fglrx-updates, fglrx-updates-dev, fglrx-amdcccle-updates
+Version: 2:15.201-0ubuntu0.14.04.1
+Priority: extra
+Section: restricted/misc
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Build-Depends: debhelper (>= 8.1.0~), dh-modaliases, libxext6, libxrandr2, libice6, libsm6, libfontconfig1, libxi6, libxcursor1, fakeroot, libdrm2, libgl1-mesa-glx, libxinerama1, libqtgui4, xserver-xorg-dev (>= 2:1.10.0), execstack, file
+Architecture: amd64 i386
+Standards-Version: 3.8.3
+Format: 3.0 (quilt)
+Directory: pool/restricted/f/fglrx-installer-updates
+Files:
+ d648313e4158875ecd9e4ed0ee4172c4 2416 fglrx-installer-updates_15.201-0ubuntu0.14.04.1.dsc
+ 1b96f89d8bfd4a8ae1929bd495045ad5 181217560 fglrx-installer-updates_15.201.orig.tar.gz
+ 646b3c380b38a3e1473ef29416e63c15 61731 fglrx-installer-updates_15.201-0ubuntu0.14.04.1.debian.tar.gz
+Uploaders: Mario Limonciello <superm1@ubuntu.com>, Alberto Milone <albertomilone@alice.it>
+Homepage: http://support.amd.com
+Package-List: 
+ fglrx-amdcccle-updates deb restricted/misc extra
+ fglrx-updates deb restricted/misc extra
+ fglrx-updates-core deb restricted/misc extra
+ fglrx-updates-dev deb restricted/misc extra
+Checksums-Sha1:
+ 64499a8a305b67883e50ec2c7d22b4fec568fe54 2416 fglrx-installer-updates_15.201-0ubuntu0.14.04.1.dsc
+ cafe3419525a8ecc517c4192888f84df1abaa41b 181217560 fglrx-installer-updates_15.201.orig.tar.gz
+ a1a8679bd7fc1368008f6b56bdb07286416c16a6 61731 fglrx-installer-updates_15.201-0ubuntu0.14.04.1.debian.tar.gz
+Checksums-Sha256:
+ 6108a6880d90dc36c22ac1671108a5ee9a3f95a6e46fa9e80613b1e581cd1b6b 2416 fglrx-installer-updates_15.201-0ubuntu0.14.04.1.dsc
+ f478b1a9054a0fa62be07f664654abce78a997e7b58a1e778ddb5fa881033c20 181217560 fglrx-installer-updates_15.201.orig.tar.gz
+ 166b624c56a4ab31549bdb11054ad4f3136251fe94439ee43c1eaca94378634b 61731 fglrx-installer-updates_15.201-0ubuntu0.14.04.1.debian.tar.gz
+Checksums-Sha512:
+ 9c40ef4ae3fc68e0ac51802c5fac7ee1e0edd0b5f7cd489497cf3338e96eb134e819c6310c68afec895ab752cbfc3a059edc577ca2e43f05cf748ac9271d9362 2416 fglrx-installer-updates_15.201-0ubuntu0.14.04.1.dsc
+ 77274a805eb92618acfdccdf64ff3124ca9e3b56f6e45b131255cfa0e67c8dc05f1ea16d7ef89bb9d6cdfe773544054a2f389d9a9afebd1d8ea0f5372f0b90c8 181217560 fglrx-installer-updates_15.201.orig.tar.gz
+ 37f0195e16f0bffb32cba5b0aaffa0354f595259eb3c20098a5567d3b6eacebc4ba22c72d38b1ed1d9e40cadd66d43324462b8752203b4e5075a58108ee8b713 61731 fglrx-installer-updates_15.201-0ubuntu0.14.04.1.debian.tar.gz
+
+Package: fglrx-installer
+Binary: fglrx-core, fglrx, fglrx-dev, fglrx-amdcccle
+Version: 2:15.201-0ubuntu0.14.04.1
+Priority: optional
+Section: restricted/misc
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Build-Depends: debhelper (>= 8.1.0~), dh-modaliases, libxext6, libxrandr2, libice6, libsm6, libfontconfig1, libxi6, libxcursor1, fakeroot, libdrm2, libgl1-mesa-glx, libxinerama1, libqtgui4, xserver-xorg-dev (>= 2:1.10.0), execstack, file
+Architecture: amd64 i386
+Standards-Version: 3.8.3
+Format: 3.0 (quilt)
+Directory: pool/restricted/f/fglrx-installer
+Files:
+ 10fd294e137c9f42452d2f893f4bf7c4 2296 fglrx-installer_15.201-0ubuntu0.14.04.1.dsc
+ 1b96f89d8bfd4a8ae1929bd495045ad5 181217560 fglrx-installer_15.201.orig.tar.gz
+ cbac8efa883ebe18d4ab9beca60a6759 66268 fglrx-installer_15.201-0ubuntu0.14.04.1.debian.tar.gz
+Uploaders: Mario Limonciello <superm1@ubuntu.com>, Alberto Milone <albertomilone@alice.it>
+Homepage: http://support.amd.com
+Package-List: 
+ fglrx deb restricted/misc extra
+ fglrx-amdcccle deb restricted/misc extra
+ fglrx-core deb restricted/misc extra
+ fglrx-dev deb restricted/misc extra
+Checksums-Sha1:
+ ef24a2f039efd0167121465b8543ef0034dd8ed3 2296 fglrx-installer_15.201-0ubuntu0.14.04.1.dsc
+ cafe3419525a8ecc517c4192888f84df1abaa41b 181217560 fglrx-installer_15.201.orig.tar.gz
+ f6bb1680cd5c303d936fa0f73c73bf52bd02e4f1 66268 fglrx-installer_15.201-0ubuntu0.14.04.1.debian.tar.gz
+Checksums-Sha256:
+ e65c5a18eefd7a608404c5b41110c9bd1006eff69eafa16868189db3ebfe9db3 2296 fglrx-installer_15.201-0ubuntu0.14.04.1.dsc
+ f478b1a9054a0fa62be07f664654abce78a997e7b58a1e778ddb5fa881033c20 181217560 fglrx-installer_15.201.orig.tar.gz
+ 75def7ea83b89ae050ffe503e41e886de43a2d71d30834e96d9c832c47569f7a 66268 fglrx-installer_15.201-0ubuntu0.14.04.1.debian.tar.gz
+Checksums-Sha512:
+ 4abf861f8848c2c3fd76a79ad719983e7977446b7dd7511d8e8e598e9251c852d5c46f0dfa70770d0c64fbebb1ecf17d6d41eb8450f5935c3754ce8d69b77000 2296 fglrx-installer_15.201-0ubuntu0.14.04.1.dsc
+ 77274a805eb92618acfdccdf64ff3124ca9e3b56f6e45b131255cfa0e67c8dc05f1ea16d7ef89bb9d6cdfe773544054a2f389d9a9afebd1d8ea0f5372f0b90c8 181217560 fglrx-installer_15.201.orig.tar.gz
+ ecd5a19416072fd9012df575c7d75f63224ea1286aea3f22a0b301275a89708d86ae93cef31f199de2b46f9a95f8af6e54d36e888f89d55f531f5600f1153263 66268 fglrx-installer_15.201-0ubuntu0.14.04.1.debian.tar.gz
+

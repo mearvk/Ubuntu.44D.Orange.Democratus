@@ -1,0 +1,129 @@
+Package: gsfonts-other
+Binary: gsfonts-other
+Version: 6.0-4ubuntu1
+Priority: optional
+Section: multiverse/text
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Torsten Landschoff <torsten@debian.org>
+Architecture: all
+Standards-Version: 3.9.2
+Format: 1.0
+Directory: pool/multiverse/g/gsfonts-other
+Files:
+ ebe623d97ef0df75f79692f00df72eda 1754 gsfonts-other_6.0-4ubuntu1.dsc
+ 33457d3f37de7ef03d2eea05a9e6aa4f 796086 gsfonts-other_6.0.orig.tar.gz
+ 93bdc415755752da02a709af3dd740cb 4723 gsfonts-other_6.0-4ubuntu1.diff.gz
+Package-List: 
+ gsfonts-other deb non-free/text optional
+Checksums-Sha1:
+ bfce75d193b3ebe58f59c34a83be97145ef5bbd2 1754 gsfonts-other_6.0-4ubuntu1.dsc
+ 7263e2bf12202b39517db600819956a832e42a75 796086 gsfonts-other_6.0.orig.tar.gz
+ c33abc1633a6c00740d15973d2f2558afffbaa2e 4723 gsfonts-other_6.0-4ubuntu1.diff.gz
+Checksums-Sha256:
+ 1abc218ac5d46a6ac90332aadcac4e0270a26bfd11bbcce4d51b5946d2103a6a 1754 gsfonts-other_6.0-4ubuntu1.dsc
+ 8146cccc4699fe9dab841446bdd17039f4769c903eceb54409188b920754aab3 796086 gsfonts-other_6.0.orig.tar.gz
+ 8d4844487b21f9cfa92fabcd80a837e5bd54f3d752225d3ffaf86934aade9eda 4723 gsfonts-other_6.0-4ubuntu1.diff.gz
+Checksums-Sha512:
+ b66ff4398d7530d4ace8d703b6faf75cdd2307963f14eb8ccdfeb9bc0586185b86f34254bc10da7d1adaee1e104d77e66aab5189df191d1229aeff39d16fe958 1754 gsfonts-other_6.0-4ubuntu1.dsc
+ 222cb81e6956d9724e746f5f4d5c7b47b04bfd75b889f437f946c29a5bf16b5ed57b7584cf7fb0d8561287ef9f2e1ac53e4d231b6eaf23cba2612b47e8a5f919 796086 gsfonts-other_6.0.orig.tar.gz
+ 4ce1d090d1299ae32a99427884eb57c63ab95921792c1c047e7c675d3672c66faa335f86d3c6c260192ddd02fa3f4edda1bcb3fdc65e04fb6661d179b364ff37 4723 gsfonts-other_6.0-4ubuntu1.diff.gz
+
+Package: idjc
+Binary: idjc
+Version: 0.8.9-1build1
+Priority: optional
+Section: multiverse/x11
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 9), autopoint, dh-autoreconf, libavcodec-dev, libavformat-dev, libflac-dev, libjack-dev, libshout-idjc-dev, libmpg123-dev, libmp3lame-dev, libsamplerate0-dev, libsndfile1-dev, libspeex-dev, libvorbis-dev, libopus-dev, python-all-dev (>= 2.6.6-3~), python-gtk2-dev, python-mutagen
+Architecture: any
+Standards-Version: 3.9.4
+Format: 3.0 (quilt)
+Directory: pool/multiverse/i/idjc
+Files:
+ 71a483c2aff07f6dec6b27241bc282d2 2353 idjc_0.8.9-1build1.dsc
+ 99abfe98f13170ab6b1ed17a8f1632e1 2431086 idjc_0.8.9.orig.tar.gz
+ dc0490011933991d60e9c9906d0b02d0 10591 idjc_0.8.9-1build1.debian.tar.gz
+Uploaders:  Free Ekanayaka <freee@debian.org>, Reinhard Tartler <siretart@tauware.de>, Alessio Treglia <alessio@debian.org>
+Homepage: http://idjc.sourceforge.net/
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-multimedia/idjc.git
+Vcs-Git: git://anonscm.debian.org/pkg-multimedia/idjc.git
+Package-List: 
+ idjc deb sound optional
+Checksums-Sha1:
+ f4322578ab1f4dec2e0afa5b4608afeab804213f 2353 idjc_0.8.9-1build1.dsc
+ 9f0edeb5f5d260e8ef254e695632d1fda82c502d 2431086 idjc_0.8.9.orig.tar.gz
+ d4b1afdb3797a81f908e7dd102461300cdd701d2 10591 idjc_0.8.9-1build1.debian.tar.gz
+Checksums-Sha256:
+ 2409b0166b241bd8c8c006e0513cd275de417fd5e108774ef99ba227a552f6c1 2353 idjc_0.8.9-1build1.dsc
+ b74e9a8378b951492c35ea9c2e3e665c5dd79f94958168d4ca872592ab326e71 2431086 idjc_0.8.9.orig.tar.gz
+ 800713e201455e6bd75efab842bd07b5e805496a737c4d889c79c9753a2e3ddc 10591 idjc_0.8.9-1build1.debian.tar.gz
+Checksums-Sha512:
+ 7bebde85866cff59137fe63f888a700b04f6a59d767f2c4b223edcdc13950908bec08bcfa2c7ab125c8ba3801a5c555d5f4f09b274caf7f77a197373b8f06a7d 2353 idjc_0.8.9-1build1.dsc
+ 8c24c7f974f0673483fb5e92ff4b0bdff168828fc4fbaa933b056fd505ea2503bdb1d8b94f934545e3f2a969d717ac68ae730cbb47fe8d6ce4c40f3db86a5ef7 2431086 idjc_0.8.9.orig.tar.gz
+ a01e8475f5cd4d18e97aa4bae77989fa51d461a59ac2ecb80ae467be293683965e64c0bb65a5fe9572d16dd3229668def03612f21dec01033e4963301a60a7ea 10591 idjc_0.8.9-1build1.debian.tar.gz
+
+Package: drdsl
+Binary: drdsl
+Version: 1.2.0-1build1
+Priority: optional
+Section: multiverse/comm
+Maintainer: Matthias Klose <doko@debian.org>
+Build-Depends: debhelper (>= 4.0.0)
+Architecture: amd64 i386
+Standards-Version: 3.6.2
+Format: 1.0
+Directory: pool/multiverse/d/drdsl
+Files:
+ 74f6465a10791093a902856fdd74988c 994 drdsl_1.2.0-1build1.dsc
+ 6febe6d245fcf9bf52d4d2b41e15ce98 50591 drdsl_1.2.0.orig.tar.gz
+ 882f833762f439ee8b0d4df89dceeaee 2635 drdsl_1.2.0-1build1.diff.gz
+Checksums-Sha1:
+ 0df53332b03af744c3b1b7eee61f60fe01ef470d 994 drdsl_1.2.0-1build1.dsc
+ a6a40bf7fe296ca0cf442bbc95d6c3371287d339 50591 drdsl_1.2.0.orig.tar.gz
+ cdd7d2d8f702aa9614603f0c8cf166e2c3d3526b 2635 drdsl_1.2.0-1build1.diff.gz
+Checksums-Sha256:
+ 0cdea14f61d1575566a5ba6cf738dc4fbf7a306e1aa63de17677e4bc6bdf4650 994 drdsl_1.2.0-1build1.dsc
+ 8b250d7eb273a877b911dfdc94a125926109137af11938d8ea4520361250ebc6 50591 drdsl_1.2.0.orig.tar.gz
+ 646e110c023445bd355c55ff154fa1fe0739dba33f3b9be7fab9e1fab9e6a117 2635 drdsl_1.2.0-1build1.diff.gz
+Checksums-Sha512:
+ 943f83a81973fb888751f474b3788eed6bbf9572e7824647cb277768a9aac4abc0bb7d46bc066a83f4841150e63831178df172cebffeeef8787182bc1ecfc124 994 drdsl_1.2.0-1build1.dsc
+ 7b14ba21c258d3969a7d715b0e318b57229f5d4bda3c84294a817df77cdc9a7bb4e7b47c03184b51cbb0fef7b504bb61c9cd5c18e79e0fa30e713f4711862e4f 50591 drdsl_1.2.0.orig.tar.gz
+ ab09e3b608d90d5ea48ba0ba2391dfe59718ca54eb56160bc4a0c520f1e6b6d402c75fb2f82b6ab33ae21c14cdfa1225f0529ea40296b648b7d14fcb17916d7f 2635 drdsl_1.2.0-1build1.diff.gz
+
+Package: fonts-larabie
+Binary: fonts-larabie-straight, fonts-larabie-deco, fonts-larabie-uncommon
+Version: 1:20011216-5
+Priority: optional
+Section: multiverse/fonts
+Maintainer: Debian Fonts Task Force <pkg-fonts-devel@lists.alioth.debian.org>
+Build-Depends-Indep: unzip, debhelper (>= 9~)
+Architecture: all
+Standards-Version: 3.9.5
+Format: 3.0 (quilt)
+Directory: pool/multiverse/f/fonts-larabie
+Files:
+ b9136df49e081909c6e6a41c8e0fc5bc 2179 fonts-larabie_20011216-5.dsc
+ b89a1fdaa3d5a67c803268eb6cfaa08c 9883905 fonts-larabie_20011216.orig.tar.bz2
+ 013c9beb084c14cc41fa43fb9e259fc1 8469 fonts-larabie_20011216-5.debian.tar.gz
+Uploaders: Christian Perrier <bubulle@debian.org>
+Homepage: http://www.larabiefonts.com/
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-fonts/fonts-larabie.git;a=summary
+Vcs-Git: git://anonscm.debian.org/pkg-fonts/fonts-larabie.git
+Package-List: 
+ fonts-larabie-deco deb non-free/fonts optional
+ fonts-larabie-straight deb non-free/fonts optional
+ fonts-larabie-uncommon deb non-free/fonts optional
+Checksums-Sha1:
+ 8dc671efcf2cfd2a40eaa5ab9f4dc5a127bedaa9 2179 fonts-larabie_20011216-5.dsc
+ fce28c6fbb74f2c76caa1f18552026e50e04d46d 9883905 fonts-larabie_20011216.orig.tar.bz2
+ 4c9e86f612c1b0816e9082dec33cde1ac0c1c8a2 8469 fonts-larabie_20011216-5.debian.tar.gz
+Checksums-Sha256:
+ 8cf1dc1f3ae643ae485a0e820fe725f2e24b3959fe74771e5ff23bfed1740a46 2179 fonts-larabie_20011216-5.dsc
+ 8a1870b1b311c6e54f1496df2fbef37cbe6d46014df0f40ca8593d9ea27e3df6 9883905 fonts-larabie_20011216.orig.tar.bz2
+ a648ef2336bab928bf88ebb5e6016450e01b0478cc7f8033d7199470a4427ee1 8469 fonts-larabie_20011216-5.debian.tar.gz
+Checksums-Sha512:
+ ae943d554342ccf835dd66d147576d2e503aad8a49e71848f89c05afa38de916ce6e9d7d47bfe9ab4846ac1953b886957ad35dbcfb047a950b4cf82ac1c434da 2179 fonts-larabie_20011216-5.dsc
+ 4d627933293179b53f09c4e2142fa6df753369a3cc4df7c6e9a48b41abe4d64a6ac4bd412f580b1f71a26b9d002dc6c397876d2e668b23ccc3c20b1ec3189694 9883905 fonts-larabie_20011216.orig.tar.bz2
+ a75aeafa0e19c6dc1e9c06a79d17b98da3b346906fc70c71d9ea45ef593ba895fc0db77c2d320793261e51baf893cfbb7e8369208c39b57c43b0528bb2b6dfcd 8469 fonts-larabie_20011216-5.debian.tar.gz
+
