@@ -1,0 +1,19 @@
+Origin: Ubuntu
+Label: Ubuntu
+Suite: bionic
+Version: 18.04
+Codename: bionic
+Date: Thu, 26 Apr 2018 23:37:48 UTC
+Architectures: amd64 arm64 armhf i386 ppc64el s390x
+Components: main restricted universe multiverse
+Description: Ubuntu Bionic 18.04
+Acquire-By-Hash: yes
+SHA256:
+ 03db2423b46c729b4c4ab4f2c0373f35b2af3b825a506ad356e5a58184f3a786   124928 main/source/Sources.gz
+ 6dd9eeff0f3f7420b753dbd496d9095fede116264c1e20b8c04637aeeb3a9acf   592780 main/source/Sources
+ fedaf7d884c84bc18fa79c45fc10019b800c89b60af02829acbb23aeaf1f3324      548 restricted/source/Sources.gz
+ bd30fb4d56494ca854a1f71392fdf891f9557d1b26681ec6f3f5dde0a2403725      859 restricted/source/Sources
+ 044a93ce04f9eb9cb9b503edb5117e8740d151a335f1f695e4821c2c9b4a3454   126862 universe/source/Sources.gz
+ 2411ac660b26a63bed36c161b1248fe4d2288af84d6075a3e00126d34b9ba53f   607399 universe/source/Sources
+ 37cc949411778706843fbedd663a32f0ae7c11bef0fbc955e4f93375035734b4      826 multiverse/source/Sources.gz
+ 2c3d9e5587a6cbf12451e4c7357fca6356a660cbad2871576636db59b6dedf95     1394 multiverse/source/Sources

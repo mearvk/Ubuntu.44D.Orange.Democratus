@@ -1,0 +1,23 @@
+Package: caja-dropbox
+Format: 3.0 (quilt)
+Binary: caja-dropbox
+Architecture: amd64 i386
+Version: 1.20.0-2
+Priority: optional
+Section: multiverse/misc
+Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
+Uploaders: Mike Gabriel <sunweaver@debian.org>, John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>, Stefano Karapetsas <stefano@karapetsas.com>, Vangelis Mouhtsis <vangelis@gnugr.org>, Martin Wimpress <code@flexion.org>, MATE Packaging Team <pkg-mate-team@lists.alioth.debian.org>,
+Standards-Version: 4.1.3
+Build-Depends: debhelper (>= 11~), dh-python, dpkg-dev (>= 1.16.1.1), libcaja-extension-dev (>= 1.16), libglib2.0-dev (>= 2.50.0), mate-common (>= 1.16), python (>= 2.6.6-3~), python-docutils (>= 0.6), python-gtk2 (>= 2.12)
+Homepage: http://www.mate-desktop.org/
+Vcs-Browser: https://anonscm.debian.org/git/pkg-mate/caja-dropbox.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-mate/caja-dropbox.git
+Directory: pool/multiverse/c/caja-dropbox
+Package-List:
+ caja-dropbox deb non-free/x11 optional arch=amd64,i386
+Checksums-Sha256:
+ d4e65b585c43bdaf2a3950388a35e5987c686c41fa5461a12741b34f7bbef019 2456 caja-dropbox_1.20.0-2.dsc
+ e2e8e73fc1a97a445915df0b09c1f3e271bc222435f96f2e137056bfd10a66a4 97648 caja-dropbox_1.20.0.orig.tar.xz
+ eb3725fb34243d76d3d2062defc61d98fa90a1fcbd64b0dc3cf7a631a525b99d 16544 caja-dropbox_1.20.0-2.debian.tar.xz
+Autobuild: yes
+
