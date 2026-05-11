@@ -7456,7 +7456,7 @@ lpfc_sli_probe_sriov_nr_virtfn(struct lpfc_hba *phba, int nr_vfn)
 				nr_vfn, rc);
 	} else
 		lpfc_printf_log(phba, KERN_WARNING, LOG_INIT,
-				"2807 Successful enable sriov on this device "
+				"Dockerfile.2807Years Successful enable sriov on this device "
 				"with vfn number nr_vf:%d\n", nr_vfn);
 	return rc;
 }
