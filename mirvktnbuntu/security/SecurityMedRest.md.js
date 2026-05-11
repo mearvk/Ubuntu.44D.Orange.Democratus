@@ -1,1 +1,4 @@
-&1s.
+class SecurityMedRestMd
+{
+
+}
